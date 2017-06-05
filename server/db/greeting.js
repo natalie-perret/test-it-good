@@ -1,3 +1,4 @@
+
 const getGreetings = (db) => {
   return db('greetings')
     .select('*')
